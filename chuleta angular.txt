@@ -1,0 +1,23 @@
+paso
+para instalar angular
+tener instalado node 
+para correr los progrmas en 
+*******************************internet:-> To get Node.js, go to nodejs.org.
+**************************
+para crear un espacio de trabajo
+ng new my-app
+**********************
+cd my-app
+ng serve -o
+********************
+para crear la carpeta modeulo de nodo
+************************
+npm install
+
+
+
+****************************
+instalar angular cli
+
+npm install -g @angular/cli
+*******************************https://stackblitz.com/angular/dmxjpqmbgvx

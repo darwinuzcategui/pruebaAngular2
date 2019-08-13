@@ -1,0 +1,288 @@
+chuleta vscode
+**********************************************************
+1er tip
+mover lineas arriaba 
+y abajo
+ Objetivo:
+        Ordenar las <li>
+
+    Tips:
+       
+        Alt + ? / ?
+**********************************************************
+**********************************************************
+*
+    Objetivo:
+        Comentar un bloque de código
+
+    Tips:
+        ? /
+        Ctrl + /   # teclado en ingles comentario sencillo
+        Ctrl + }   # Teclado español comentario sencillo 
+
+*/
+**********************************************************
+<!-- 
+    Objetivo:
+        comentar linaeas por bloques
+    
+    Tips:
+        
+        Ctrl + /  # comentario de una linia teclado ingles
+        Ctrl + }  # comentario de una linia teclado español
+        Shift + Alt + A # comentario por bloque o parte de codigo
+-->
+************************************************************
+<!-- 
+    Objetivo
+        Crear carpeta assets
+        Crear carpeta js
+        Crear archivo app.js
+
+    Tips:
+        ? click derecho
+        Ctrl + click derecho
+-->
+
+<script src="assets/js/app.js"></script>
+*************************************************************
+/*
+    Objetivo:
+        Ir a la definición de la función saludar rápidamente
+
+    Tips:
+        Ojear definición   ? F12
+        Ir a la definición F12
+
+        Ojear definición   Alt + F12
+        Ir a la definición F12
+*/
+*************************************************************
+/*
+    Objetivo:
+        Ir a la definición de la función saludar rápidamente
+
+    Tips:
+       
+        Ojear definición   Alt + F12
+        Ir a la definición F12
+        Ir a la linea o la funcion con Ctrl pulsado y click
+
+*/
+************************************************************
+/*
+    Objetivo:
+        Borra Linea con Multicursor sencillo
+
+    Tips:
+        
+        Ctrl + Shift + K  # borra la linea
+
+    PRO:
+        Seleccionar todas las ocurrencias de la selección
+        
+        Ctrl + Shift + L  # multicursor
+*/
+************************************************************
+/*
+    Objetivo:
+        Deshacer y rehacer el código
+§
+    Tips:
+      
+        Ctrl +Z
+        Ctrl + Shift + Z
+
+*/
+*************************************************************
+<!-- 
+    Objetivo:
+        Cero distracciones
+        Ocultar Mostrar sidebar
+    
+    tips:
+        ? B mac
+        Ctrl + B   # ocultar o mostra sidebar
+
+        ? K Z mac
+        Ctrl + K Z # modo  zen mode o cero distracciones
+	Ctrl + P # Dialogo para buscar los archivos
+
+ -->
+************************************************************
+<!-- 
+    Objetivo:
+        Ocultar Mostrar terminal
+    
+    tips:
+        
+        Ctrl + ` Terminal en teclado Ingles
+	Ctrl + Shist + ` volver al Terminal en teclado Ingles
+ 	
+	Ctrl + ñ Terminal en teclado Español
+	Ctrl +  Shist + ñ Terminal en teclado Español
+
+
+ -->
+************************************************************
+<!-- 
+    Objetivo:
+        Utilizar emmet wrap
+        Crear atajo (shortcut) para el mismo
+    
+    tips:
+        ? ? P
+        Ctrl + SHIFT + P para ir la paletas 
+			se busca lo que desea
+
+        Buscar: Wrap with abbreviation
+                debe de quedar el ng serve así
+                <code>ng serve</code>
+	crear atajo de teclado Ctrl + k  Ctrl+ S
+se creo un atajo Wrap with abbreviation Alt + w + A
+
+ -->
+************************************************************
+<!-- 
+    Objetivo:
+        Abrir, reabrir, cerrar tabs, cambair de tab
+    
+    tips:
+        ? W      Cerrar tab  / Cerrar aplicación
+        ? K ? W  Cerrar todas
+        ? ? T    Reabrir anterior
+        ^ TAB    Cambiar de tab
+	
+	**********************************
+        Ctrl + W            Cerrar tab
+        Ctrl + K  Ctrl + W  Cerrar todas
+        Ctrl + Shift + T    Reabrir anterior
+        Ctrl + TAB          Cambiar de tab
+ -->
+
+************************************************************
+<!-- 
+    Objetivo:
+        Clonar línea
+    
+    Tips:
+        * Puede cambiar, revisar los shortcuts
+
+        
+        Shift + Alt + D # teclado ingles
+	BloqMayus + ALT + FlechaAbjo   # teclado español
+	BloqMayus + ALT + FlechaArriba # teclado español
+
+    Pro: (Revisar shortcuts)
+        Copy line down
+        
+        Ctrl + K Ctrl + S  # buscar atajo de teclado 
+
+        
+-->
+*********************************************************
+<!-- 
+    Objetivo:
+        Crear múltiples cursores para editar 
+    
+    Tips:
+        
+        Ctrl + Alt+ ? / ? TECLADO 
+        en los multicursores Shist + Ctrl para seleccionar
+	felcha hacia derecha o izqu
+
+       
+-->
+
+***********************************************************
+/*
+    Objetivo:
+        Crear múltiples cursores
+        Dar el formato deseado
+
+    Tips:
+        
+
+        Ctrl + Alt + ? / ?
+        Ctrl + Alt + U  # UPERCASE
+        Ctrl +  L  	# LOWERCASE
+
+    Pro:
+        Mostrar la paleta de comandos
+       
+        Ctrl + Shift + P, F1
+*/
+********************************************************
+<!-- 
+    Objetivo:
+        Crear múltiples cursores
+        Añadir la clase de estilo igual a la contenida en el span.
+        Ver objetivo final
+    
+    Tip:
+        
+
+        Mantener Alt + Doble click
+        Mantener Alt + Seleccionar  y ctrl teclas hacia derecha-->
+
+-->
+************************************************************
+<!-- 
+    Objetivo:
+        Crear múltiples cursores usando el "Next find match"
+    
+    Tip:
+        ? + D
+        
+        Ctrl + D
+
+-->
+*************************************************************
+/*
+    Objetivo:
+        Ver rápidamente las definiciones de la clase
+        También funciona con archivos HTML y otros
+
+    Tips:
+        ? P => luego escribir la @
+        ? ? O
+
+        Ctrl + P => luego escribir la @
+        Ctrl + Shift = O
+
+        Se pueden agrupar si después de la @, se escriben :
+*/
+************************************************************
+/*
+    Objetivo:
+        Manejar TODOS:
+
+    Tips:
+        ^ G
+        ? P => luego escribir :
+
+        Ctrl + G
+        Ctrl + P => luego escribir la :
+
+    Tarea:
+        Borrar la clase en la línea 7798
+*/
+************************************************************
+# Tips
+```
+
+
+Ctrl + Shift+ V : Markdown Open Preview
+Ctrl + K V : Markdown Open Preview to the side
+ALT Z  : # quitar el corte de linea del editor
+
+************************************************************
+/*
+    Objetivo:
+        Cambiar únicamente la refencia de SuperHeroe a Heroe
+        OJO!: Pero no reemplazar los strings
+
+    Tips:
+        Replace Symbol
+        F2
+*/
