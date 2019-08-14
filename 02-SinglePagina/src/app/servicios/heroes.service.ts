@@ -70,7 +70,7 @@ export class HeroesService {
   }
 
 }
-export interface Heroe{
+export interface Heroe {
   nombre: string;
   bio: string;
   img: string;
