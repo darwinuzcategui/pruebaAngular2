@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Introducción</title>
+</head>
+
+<body>
+    <script src="node_modules/systemjs/dist/system.js"</script>
+    
+    <script>
+
+/* Aquí iría la configuración */
+
+System.config({
+
+});
+
+/* Indicamos que añada la terminación .js a todos los archivos */
+
+System.defaultJSExtensions = true;
+
+/* Cargamos el archivo principal (que funciona como una promesa */
+
+SystemJS.import('./app')
+
+.then(null, console.error.bind(console));
+
+</script>
+</body>
+
+</html>

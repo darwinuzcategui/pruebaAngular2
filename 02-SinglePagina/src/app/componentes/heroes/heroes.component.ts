@@ -20,6 +20,7 @@ export class HeroesComponent implements OnInit {
     console.log("ngOnInit segundo");
     this.heroes = this._heroesServicio.getHeroes();
     console.log(this.heroes );
+    
 
 
   }
@@ -27,10 +28,4 @@ export class HeroesComponent implements OnInit {
 
 }
 
-export interface Heroe {
-  nombre: string;
-  bio: string;
-  img: string;
-  aparicion: string;
-  casa: string;
-}
+
