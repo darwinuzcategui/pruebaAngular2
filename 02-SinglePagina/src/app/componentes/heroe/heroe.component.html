@@ -1,0 +1,26 @@
+<h1>{{ unSoloHeroe.nombre }} <small>{{unSoloHeroe.aparicion}}</small></h1>
+<hr>
+
+<div class="row">
+
+   <div class="col-md-4">
+
+    <img [src]="unSoloHeroe.img" class="img-fluid" [alt]="unSoloHeroe.nombre">
+    <br><br>
+    <a [routerLink]="['/heroes']" routerLinkActive="router-link-active"  class="btn btn-outline-danger btn-block">Regresar</a>
+    
+   </div>
+   
+   <div class="col-md-8">
+    <h3>{{ unSoloHeroe.nombre }}</h3>
+    <hr>
+    <p>
+            {{ unSoloHeroe.bio }}
+    </p>
+    <div>
+        <img *ngIf="unSoloHeroe.casa == 'DC'" class="img-logo" src="assets/img/dc-logo.jpg"  [alt]="DC">
+        <img *ngIf="unSoloHeroe.casa == 'Marvel'" class="img-logo" src="assets/img/marvel-logo.png"  [alt]="Marvel">
+    </div>
+
+   </div>
+</div>
