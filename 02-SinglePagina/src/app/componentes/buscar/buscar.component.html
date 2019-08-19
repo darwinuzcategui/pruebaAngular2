@@ -1,0 +1,23 @@
+<h1>Buscardor <small>{{termino}}</small> </h1>
+<hr>
+
+<div class="row animated fadeIn fast" *ngIf="heroesLocal.length == 0">
+    <div class="col-md-12">
+        <div class="alert alert-info" role="alert">
+            No existe Resultado con la Busquedad : {{termino}}
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+</div>
+<div class="card-columns">
+
+    <app-heroe-tarjeta [varlocalHeroes]="varlocalHeroes" [indice]="i" *ngFor="let varlocalHeroes of heroesLocal, let i=index"></app-heroe-tarjeta>
+
+</div>

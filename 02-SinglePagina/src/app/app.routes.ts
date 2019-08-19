@@ -3,6 +3,7 @@ import { HomeComponent } from './componentes/home/home.component';
 import { AboutComponent } from './componentes/about/about.component';
 import { HeroesComponent } from './componentes/heroes/heroes.component';
 import { HeroeComponent } from './componentes/heroe/heroe.component';
+import { BuscarComponent } from './componentes/buscar/buscar.component';
 
 
 
@@ -15,6 +16,7 @@ const RUTAS: Routes = [
   { path: 'about', component: AboutComponent },
   { path: 'heroes', component: HeroesComponent },
   { path: 'heroe/:id_de_la_rutas', component: HeroeComponent },
+  { path: 'buscar/:termino', component: BuscarComponent },
   { path: '**', pathMatch: 'full', redirectTo: 'home' }
 ];
 

@@ -1,19 +1,9 @@
 <h1>Héroes <small>Marvel y DC</small> </h1>
 <hr>
 <div class="card-columns">
+    <!-- *ngFor="let varlocalHeroes of heroes, let i=index" -->
+    <app-heroe-tarjeta [varlocalHeroes]="varlocalHeroes" [indice]="i" *ngFor="let varlocalHeroes of heroes, let i=index"></app-heroe-tarjeta>
 
-    <div class="card animated fadeIn fas" *ngFor="let varlocalHeroes of heroes, let i=index">
-        <img [src]= "varlocalHeroes.img" class="card-img-top" [alt]="varlocalHeroes.nombre">
-        <div class="card-body">
-            <h5 class="card-title">{{ varlocalHeroes.nombre }}</h5>
-            <p class="card-text">{{ varlocalHeroes.bio }}</p>
-            <p class="card-text"><small class="text-muted">{{varlocalHeroes.aparicion}}</small></p>
-            <button (click)="verHeroe(i)" 
-                type="button" class="btn btn-outline-primary btn-block">
-                Ver Mas..
-            </button>
-            <!-- <a [routerLink]="['/heroe',i]"  class="btn btn-outline-success">Ver mas Link..</a> -->
-        </div>
-    </div>
+
 
 </div>
