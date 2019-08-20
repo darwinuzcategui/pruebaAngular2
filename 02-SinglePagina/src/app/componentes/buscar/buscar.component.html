@@ -18,6 +18,6 @@
 </div>
 <div class="card-columns">
 
-    <app-heroe-tarjeta [varlocalHeroes]="varlocalHeroes" [indice]="i" *ngFor="let varlocalHeroes of heroesLocal, let i=index"></app-heroe-tarjeta>
+    <app-heroe-tarjeta [varlocalHeroes]="varlocalHeroes" [indice]="varlocalHeroes.idx" *ngFor="let varlocalHeroes of heroesLocal, let i=index"></app-heroe-tarjeta>
 
 </div>

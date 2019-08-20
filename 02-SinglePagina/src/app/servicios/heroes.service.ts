@@ -77,16 +77,21 @@ export class HeroesService {
 
     let heroesArreglo: Heroe[] = [];
     termino = termino.toLowerCase();
-    for (let heroeLocalenFor of this.heroes ) {
+    // for (let heroeLocalenFor of this.heroes ) {
 
-      let nombre = heroeLocalenFor.nombre.toLowerCase();
+      // tslint:disable-next-line: prefer-for-of
+      for (let i = 0; i < this.heroes.length; i++) {
 
-      if ( nombre.indexOf( termino ) >=0 ) {
-        // agregro al arreglo el heroe
-        heroesArreglo.push( heroeLocalenFor )
+        let heroeLocalenFor = this.heroes[i];
+
+        let nombre = heroeLocalenFor.nombre.toLowerCase();
+
+        if (nombre.indexOf(termino) >= 0) {
+          // agregro al arreglo el heroe
+          heroeLocalenFor.idx = i;
+          heroesArreglo.push(heroeLocalenFor);
+        }
       }
-
-    }
 
     return heroesArreglo;
   }
@@ -98,4 +103,5 @@ export interface Heroe {
   img: string;
   aparicion: string;
   casa: string;
+  idx?: number;
 }
