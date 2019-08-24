@@ -14,7 +14,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 
 export class CapitalizadoPipe implements PipeTransform {
 
-  transform(value: string  ): string {
+  transform(value: string, todas: boolean = true  ): string {
 //  con el operador red que son ...  transform(value: string, ...args: any[] ): string {
 // con los argumento cada uno      transform(value: string, args1, args2, args3 ): string {
 
@@ -26,12 +26,22 @@ export class CapitalizadoPipe implements PipeTransform {
 
     let nombres = value.split(" ");
 
+    if ( todas ){
+      
+      for( let i in nombres ) {
+        nombres[i] = nombres[i][0].toUpperCase() + nombres[i].substr(1);
+        }
 
-    for( let i in nombres ) {
-      nombres[i] = nombres[i][0].toUpperCase() + nombres[i].substr(1);
-      }
+    }else {
+      nombres[0]= nombres[0][0].toUpperCase() + nombres[0].substr(1);
+
+    }
 
 
-     return nombres.join(" ");
+
+    
+
+
+     return nombres.join(' ');
   }
 }
