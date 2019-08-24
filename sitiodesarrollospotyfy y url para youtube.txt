@@ -1,0 +1,16 @@
+Sitio web de developer de Spotify
+Actualización del sitio de Developer de Spotify
+
+En esta sección crearemos una aplicación que consume los servicios de Spotify.
+
+Pueden ver lo servicios en esta dirección
+
+https://beta.developer.spotify.com/console/
+*******************************************
+video=mOeSfOJrUIk
+https://www.youtube.com/embed/mOeSfOJrUIk
+
+
+
+video =-yChPYJ3soE
+https://www.youtube.com/embed/-yChPYJ3soE
