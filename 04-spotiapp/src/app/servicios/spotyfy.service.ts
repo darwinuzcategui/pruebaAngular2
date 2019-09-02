@@ -15,20 +15,31 @@ export class SpotyfyService {
    }
 
    getNuevoLansamientoSpotyfy(){
-     //const encabezados = new HttpHeaders({
-       // tslint:disable-next-line:object-literal-key-quotes
+     //const ENCABEZADOS = new HttpHeaders({
+       
      //  'Authorization': 'Bearer  BQDMJseIaPev15kBVzuiCVX8A0VewxlRcKeuKxqADE1JuBx4ccFmRhvWDOUfWNkNuYf70IFWTbcBpD4gKT4'
     // });
      const headers = new HttpHeaders({
-      'Authorization': 'Bearer  BQDMJseIaPev15kBVzuiCVX8A0VewxlRcKeuKxqADE1JuBx4ccFmRhvWDOUfWNkNuYf70IFWTbcBpD4gKT4'
+      'Authorization': 'Bearer  BQC1_Sz3u9MYbNC9Z9ISw_RbAnuAssGOOWq_9jRyZ5ow0BaNO7g0NEsSJjsO8HUETU93IcdBNTi5-MA_TYc'
     });
 
-     this.http.get('https://api.spotify.com/v1/browse/new-releases', { headers })
-      .subscribe( datos => {
-        console.log(datos);
-
-      });
+     return this.http.get('https://api.spotify.com/v1/browse/new-releases?limit=19', { headers });
+    //  .subscribe( datos => {
+    //    console.log(datos);
+//
+  //    });
      
+   }
+   getArtistas(termino: string ){
+    const headers = new HttpHeaders({
+      'Authorization': 'Bearer  BQC1_Sz3u9MYbNC9Z9ISw_RbAnuAssGOOWq_9jRyZ5ow0BaNO7g0NEsSJjsO8HUETU93IcdBNTi5-MA_TYc'
+    });
+
+     return this.http.get(`https://api.spotify.com/v1/search?q=${ termino }&type=artist`, { headers });
+    //  .subscribe( datos => {
+    //    console.log(datos);
+//
+
    }
 
 }

@@ -19,3 +19,13 @@ https://www.youtube.com/embed/-yChPYJ3soE
 
 
 BQCh7tL-Hrdd_YtcamBpEPR3_54FQpG7dbJoYuSmeWXkXOKFx8-_AFS12SPqIltV3dMAjH3VfKp4bc_AZ3Q
+
+token spotyfy
+POST https://accounts.spotify.com/api/token
+
+REQUEST BODY PARAMETER	VALUE
+grant_type		client_credentials
+
+
+Client ID 7897f184c3c24a71acd5e4161598b728
+Client Secret b85b0ff3c56b402e8ff4f81b428fe40a

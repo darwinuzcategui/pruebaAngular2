@@ -1,15 +1,24 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { SpotyfyService } from '../../servicios/spotyfy.service';
 
 @Component({
   selector: 'app-buscar',
   templateUrl: './buscar.component.html',
   styles: []
 })
-export class BuscarComponent implements OnInit {
+export class BuscarComponent {
 
-  constructor() { }
+  artistas: any[] =[];
 
-  ngOnInit() {
+  constructor(private spotyfy: SpotyfyService ) { }
+  buscar(terminoBusqueda: string ) {
+    console.log(terminoBusqueda);
+    this.spotyfy.getArtistas( terminoBusqueda )
+    .subscribe( (datos:any) => {
+      console.log(datos.artists.items);
+      this.artistas =datos.artists.items;
+
+    });
   }
 
 }

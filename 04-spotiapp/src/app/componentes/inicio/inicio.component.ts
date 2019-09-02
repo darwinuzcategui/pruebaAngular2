@@ -9,10 +9,16 @@ import { SpotyfyService } from '../../servicios/spotyfy.service';
 })
 export class InicioComponent  {
 
+  nuevasCanciones: any[] = [];
+
  
 
   constructor( private servicioUtilizadoInicio: SpotyfyService ) { 
-    this.servicioUtilizadoInicio.getNuevoLansamientoSpotyfy();
+    this.servicioUtilizadoInicio.getNuevoLansamientoSpotyfy()
+    .subscribe( (datos: any) => {
+      console.log(datos.albums.items);
+      this.nuevasCanciones = datos.albums.items;
+    });
    }
 
   }
