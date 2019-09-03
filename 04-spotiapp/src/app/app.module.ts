@@ -9,11 +9,17 @@ import { AppComponent } from './app.component';
 import { InicioComponent } from './componentes/inicio/inicio.component';
 import { BuscarComponent } from './componentes/buscar/buscar.component';
 import { ArtistaComponent } from './componentes/artista/artista.component';
+import { TarjetasComponent } from './componentes/tarjetas/tarjetas.component';
 import { NavbarComponent } from './componentes/compartida/navbar/navbar.component';
 
 // importar las rutas
 import { RUTAS } from './app-routing.module';
 import { PaisesEjemploHttpComponent } from './componentes/paises-ejemplo-http/paises-ejemplo-http.component';
+
+// importaciones de Pipes
+import { NoImangenPipe } from './pipes/no-imangen.pipe';
+import { CargandoComponent } from './componentes/compartida/cargando/cargando.component';
+
 // Servicios
 // import { SpotyfyService } from './servicios/spotyfy.service';
 
@@ -26,7 +32,10 @@ import { PaisesEjemploHttpComponent } from './componentes/paises-ejemplo-http/pa
     BuscarComponent,
     ArtistaComponent,
     NavbarComponent,
-    PaisesEjemploHttpComponent
+    PaisesEjemploHttpComponent,
+    NoImangenPipe,
+    TarjetasComponent,
+    CargandoComponent
   ],
   imports: [
     BrowserModule,

@@ -1,1 +1,9 @@
-<p>buscar works!</p>
+<div class="row">
+    <div class="col">
+        <input #termino type="text" (keyup)="buscar(termino.value)" class="forn-conntrol" placeholder="Buscar Artista">
+    </div>
+</div>
+
+<app-cargando class="m-5" *ngIf="cargando"></app-cargando>
+
+<app-tarjetas *ngIf="!cargando" [items]="artistas"></app-tarjetas>
