@@ -39,6 +39,7 @@ export class SpotyfyService {
   // FUNCION VIEJA SE OPTIMISO
    getNuevoLansamientoSpotyfy(){
      //const ENCABEZADOS = new HttpHeaders({
+<<<<<<< HEAD
 
      //  'Authorization': 'Bearer  BQDMJseIaPev15kBVzuiCVX8A0VewxlRcKeuKxqADE1JuBx4ccFmRhvWDOUfWNkNuYf70IFWTbcBpD4gKT4'
     // });
@@ -49,10 +50,35 @@ export class SpotyfyService {
 
     return this.http.get('https://api.spotify.com/v1/browse/new-releases?limit=19', { headers })
      .pipe ( map ( datos => datos['albums'].items));
+=======
+       
+     //  'Authorization': 'Bearer  BQDMJseIaPev15kBVzuiCVX8A0VewxlRcKeuKxqADE1JuBx4ccFmRhvWDOUfWNkNuYf70IFWTbcBpD4gKT4'
+    // });
+     const headers = new HttpHeaders({
+      'Authorization': 'Bearer  BQC1_Sz3u9MYbNC9Z9ISw_RbAnuAssGOOWq_9jRyZ5ow0BaNO7g0NEsSJjsO8HUETU93IcdBNTi5-MA_TYc'
+    });
+
+     return this.http.get('https://api.spotify.com/v1/browse/new-releases?limit=19', { headers });
+>>>>>>> refs/remotes/origin/master
     //  .subscribe( datos => {
     //    console.log(datos);
 //
   //    });
+<<<<<<< HEAD
+
+=======
+     
+>>>>>>> refs/remotes/origin/master
+   }
+   getArtistas(termino: string ){
+    const headers = new HttpHeaders({
+      'Authorization': 'Bearer  BQC1_Sz3u9MYbNC9Z9ISw_RbAnuAssGOOWq_9jRyZ5ow0BaNO7g0NEsSJjsO8HUETU93IcdBNTi5-MA_TYc'
+    });
+
+     return this.http.get(`https://api.spotify.com/v1/search?q=${ termino }&type=artist`, { headers });
+    //  .subscribe( datos => {
+    //    console.log(datos);
+//
 
    }
 
