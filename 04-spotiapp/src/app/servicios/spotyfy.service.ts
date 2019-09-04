@@ -20,7 +20,7 @@ export class SpotyfyService {
      const  URL = `https://api.spotify.com/v1/${ query } `;
      const headers = new HttpHeaders({
       // tslint:disable-next-line: max-line-length
-      Authorization: 'Bearer BQA_C5mnXlW_Xuz4dzb5ONTBO_FqVUVr2zognlA10z33xxAtkxzOhpXbuprMEFZv-vZrIMYqO3WDGZFH_jp_RXT0cGI1Uj2KunX2QTu5jYt1nacEs40eTgSUwtkBBkDjpVGAuk150_JmAgvOvhlnuGnW3HiwFyyBupM53AanhW6Qa0cINKnKB6jC56beLgGRMJUUH7lt8TeiI1s'
+      Authorization: 'Bearer BQBDiaPS1sSoSdjIBYDltwmRUD5k8MkNXzh2V00Wo4SkBElIR_YcTsArJwCRTri1a4xLOAojlklh5mfHz74'
     });
 
      return this.http.get(URL, {headers});
@@ -39,7 +39,6 @@ export class SpotyfyService {
   // FUNCION VIEJA SE OPTIMISO
    getNuevoLansamientoSpotyfy(){
      //const ENCABEZADOS = new HttpHeaders({
-<<<<<<< HEAD
 
      //  'Authorization': 'Bearer  BQDMJseIaPev15kBVzuiCVX8A0VewxlRcKeuKxqADE1JuBx4ccFmRhvWDOUfWNkNuYf70IFWTbcBpD4gKT4'
     // });
@@ -50,25 +49,10 @@ export class SpotyfyService {
 
     return this.http.get('https://api.spotify.com/v1/browse/new-releases?limit=19', { headers })
      .pipe ( map ( datos => datos['albums'].items));
-=======
-       
-     //  'Authorization': 'Bearer  BQDMJseIaPev15kBVzuiCVX8A0VewxlRcKeuKxqADE1JuBx4ccFmRhvWDOUfWNkNuYf70IFWTbcBpD4gKT4'
-    // });
-     const headers = new HttpHeaders({
-      'Authorization': 'Bearer  BQC1_Sz3u9MYbNC9Z9ISw_RbAnuAssGOOWq_9jRyZ5ow0BaNO7g0NEsSJjsO8HUETU93IcdBNTi5-MA_TYc'
-    });
-
-     return this.http.get('https://api.spotify.com/v1/browse/new-releases?limit=19', { headers });
->>>>>>> refs/remotes/origin/master
     //  .subscribe( datos => {
     //    console.log(datos);
 //
   //    });
-<<<<<<< HEAD
-
-=======
-     
->>>>>>> refs/remotes/origin/master
    }
    getArtistas(termino: string ){
     const headers = new HttpHeaders({

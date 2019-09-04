@@ -8,7 +8,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { InicioComponent } from './componentes/inicio/inicio.component';
 import { BuscarComponent } from './componentes/buscar/buscar.component';
-import { ArtistaComponent } from './componentes/artista/artista.component';
+import { ArtistaComponent } from  './componentes/artista/artista.component';
 import { TarjetasComponent } from './componentes/tarjetas/tarjetas.component';
 import { NavbarComponent } from './componentes/compartida/navbar/navbar.component';
 

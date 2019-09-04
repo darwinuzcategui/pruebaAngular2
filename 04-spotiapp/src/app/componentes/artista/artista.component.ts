@@ -19,7 +19,7 @@ export class ArtistaComponent {
     this.rutasActiva.params.subscribe(parametrosrecibido => {
       // console.log(parametrosrecibido['id']);
       // llamo la funcion
-      this.getArtista(parametrosrecibido[ 'id ']);
+      this.getArtista(parametrosrecibido[ 'id']);
     });
   }
 
