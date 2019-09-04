@@ -20,7 +20,7 @@ export class SpotyfyService {
      const  URL = `https://api.spotify.com/v1/${ query } `;
      const headers = new HttpHeaders({
       // tslint:disable-next-line: max-line-length
-      Authorization: 'Bearer BQBDiaPS1sSoSdjIBYDltwmRUD5k8MkNXzh2V00Wo4SkBElIR_YcTsArJwCRTri1a4xLOAojlklh5mfHz74'
+      Authorization: 'Bearer BQDIT-dk2sD-wOZXz-lDr6kTluuWdeOq-xKeJgmXoL7M4t8SKQpJg-F9cX_9mJPcXfNVFaSjspaYcqcy96g'
     });
 
      return this.http.get(URL, {headers});
@@ -95,5 +95,14 @@ export class SpotyfyService {
     return this.getQuery(`artists/${ id }`);
      //.pipe ( map (datos => datos['artists'].items));
  }
+
+ getTopCanciones( id: string ) {
+
+  // GET https://api.spotify.com/v1/artists/{id}/top-tracks
+
+   return this.getQuery(`artists/${ id }/top-tracks?country=es`)
+   .pipe ( map (datos => datos['tracks']));
+
+}
 
 }

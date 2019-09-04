@@ -9,6 +9,7 @@ import { SpotyfyService } from "../../servicios/spotyfy.service";
 })
 export class ArtistaComponent {
   artistaUnObjeto: any = {};
+  topCanciones: any = [];
   cargando: boolean;
 
   constructor(
@@ -20,6 +21,7 @@ export class ArtistaComponent {
       // console.log(parametrosrecibido['id']);
       // llamo la funcion
       this.getArtista(parametrosrecibido[ 'id']);
+      this.getTopCanciones(parametrosrecibido[ 'id']);
     });
   }
 
@@ -30,5 +32,17 @@ export class ArtistaComponent {
       this.artistaUnObjeto = artista;
       this.cargando = false;
     });
+  }
+
+  getTopCanciones(id: string ) {
+    this.spotyfy.getTopCanciones(id)
+    .subscribe( topeCanciones => {
+
+      this.topCanciones = topeCanciones;
+      console.log(topeCanciones);
+
+    });
+
+
   }
 }
