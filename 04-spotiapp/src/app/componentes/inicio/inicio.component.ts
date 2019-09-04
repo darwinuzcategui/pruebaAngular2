@@ -10,7 +10,6 @@ import { SpotyfyService } from '../../servicios/spotyfy.service';
 export class InicioComponent  {
 
   nuevasCanciones: any[] = [];
-<<<<<<< HEAD
   cargando: boolean;
 
 
@@ -21,20 +20,10 @@ export class InicioComponent  {
     this.servicioUtilizadoInicio.getNuevoLansamientoSpotyfy()
     .subscribe( (datos: any) => {
       console.log(datos);
-      //this.nuevasCanciones = datos.albums.items;
-        this.nuevasCanciones = datos;
-        this.cargando = false;
+      // this.nuevasCanciones = datos.albums.items;
+      this.nuevasCanciones = datos;
+      this.cargando = false;
 
-=======
-
- 
-
-  constructor( private servicioUtilizadoInicio: SpotyfyService ) { 
-    this.servicioUtilizadoInicio.getNuevoLansamientoSpotyfy()
-    .subscribe( (datos: any) => {
-      console.log(datos.albums.items);
-      this.nuevasCanciones = datos.albums.items;
->>>>>>> refs/remotes/origin/master
     });
    }
 

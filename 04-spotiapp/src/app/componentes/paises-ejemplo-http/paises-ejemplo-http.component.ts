@@ -3,8 +3,8 @@ import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-paises-ejemplo-http',
-  templateUrl: './paises-ejemplo-http.component.html',
-  styleUrls: ['./paises-ejemplo-http.component.css']
+  templateUrl: './paises-ejemplo-http.component.html'
+
 })
 export class PaisesEjemploHttpComponent implements OnInit {
 

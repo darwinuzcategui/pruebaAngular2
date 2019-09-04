@@ -1,6 +1,5 @@
 <div class="row">
     <div class="col">
-<<<<<<< HEAD
         <input #termino type="text" (keyup)="buscar(termino.value)" class="forn-conntrol" placeholder="Buscar Artista">
     </div>
 </div>
@@ -8,21 +7,3 @@
 <app-cargando class="m-5" *ngIf="cargando"></app-cargando>
 
 <app-tarjetas *ngIf="!cargando" [items]="artistas"></app-tarjetas>
-=======
-        <input #termino type="text" (keyup)="buscar(termino.value)" class="forn-conntrol" placeholder="Buscar Artista"> 
-    </div>
-</div>
-
-<div class="card-columns m-5">
-
-
-        <div *ngFor="let artista of artistas" class="card">
-          <img [src]="artista.images[0].url" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">{{ artista.name }}</h5>
-            
-            
-          </div>
-        </div>
-      </div>
->>>>>>> refs/remotes/origin/master
