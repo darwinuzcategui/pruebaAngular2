@@ -1,6 +1,6 @@
-import { Component } from "@angular/core";
-import { ActivatedRoute } from "@angular/router";
-import { SpotyfyService } from "../../servicios/spotyfy.service";
+import { Component } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { SpotyfyService } from '../../servicios/spotyfy.service';
 
 @Component({
   selector: 'app-artista',
