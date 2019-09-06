@@ -8,6 +8,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { InicioComponent } from './componentes/inicio/inicio.component';
 import { BuscarComponent } from './componentes/buscar/buscar.component';
+// tslint:disable-next-line:import-spacing
 import { ArtistaComponent } from  './componentes/artista/artista.component';
 import { TarjetasComponent } from './componentes/tarjetas/tarjetas.component';
 import { NavbarComponent } from './componentes/compartida/navbar/navbar.component';
@@ -18,10 +19,15 @@ import { PaisesEjemploHttpComponent } from './componentes/paises-ejemplo-http/pa
 
 // importaciones de Pipes
 import { NoImangenPipe } from './pipes/no-imangen.pipe';
+import { DomseguroPipe } from './pipes/domseguro.pipe';
+
+
 import { CargandoComponent } from './componentes/compartida/cargando/cargando.component';
+import { ErrorComponent } from './componentes/compartida/error/error.component';
 
 // Servicios
 // import { SpotyfyService } from './servicios/spotyfy.service';
+
 
 
 
@@ -34,8 +40,10 @@ import { CargandoComponent } from './componentes/compartida/cargando/cargando.co
     NavbarComponent,
     PaisesEjemploHttpComponent,
     NoImangenPipe,
+    DomseguroPipe,
     TarjetasComponent,
-    CargandoComponent
+    CargandoComponent,
+    ErrorComponent
   ],
   imports: [
     BrowserModule,

@@ -11,6 +11,7 @@ export class InicioComponent  {
 
   nuevasCanciones: any[] = [];
   cargando: boolean;
+  errorSi: boolean;
 
 
 
@@ -23,6 +24,7 @@ export class InicioComponent  {
       // this.nuevasCanciones = datos.albums.items;
       this.nuevasCanciones = datos;
       this.cargando = false;
+      this.errorSi = false;
 
     });
    }
