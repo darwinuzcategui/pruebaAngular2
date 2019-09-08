@@ -6,11 +6,18 @@ import { Lista } from '../modelos/lista.modelo';
 })
 export class DeseosService { 
 
-  listas: Lista[] =[];
+  listas: Lista[] = [];
   
 
   constructor() { 
-    console.log('servicio inicializado');
+    // console.log('servicio inicializado');
+    const lista1 = new Lista('Hacer Primera Tarea');
+    const lista2 = new Lista('Hacer segunda Tarea');
+
+    this.listas.push(lista1, lista2);
+    
+   // console.log(this.listas);
+
     
   }
 }
