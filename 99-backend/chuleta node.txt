@@ -1,0 +1,18 @@
+para inicia proyecto node
+*************************
+npm init --yes
+*************************
+para incluir los nuevos modulos
+npm i express ..
+npm i modemon -D D Mayuscula  es paradependencia de desarrollo
+
+***************************
+para ejecutar 
+node src/nombre.js
+**********************
+para ejecutar scrip
+npm run nombrScrip
+
+
+
+
