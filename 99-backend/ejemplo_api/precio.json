@@ -1,0 +1,390 @@
+{ 
+"titulo": "Lista de Precio","precio incluye Iva": "Si ","Orden": "Ordenado Por Nombre",
+ 
+"lista Precio A" :[
+{
+"id":2, "codigo":"005013", "descri":"ACT II Butter Lover's Cotufa de Microond", "medida":"", "precio":1.94 
+}, 
+{
+"id":3, "codigo":"005019", "descri":"Alessi Black Pepercorn 38gr Envase de vi", "medida":"", "precio":6.52 }, 
+{
+"id":4, "codigo":"003014", "descri":"Almond Joy Coco Barra", "medida":"", "precio":3.25 }, 
+{
+"id":5, "codigo":"002008", "descri":"Altoids Pepermint Caramelo de menta", "medida":"", "precio":5.43 }, 
+{
+"id":6, "codigo":"007001", "descri":"Antiseptic Listerine Cool Mint 1.5 Litro", "medida":"", "precio":26.12 }, 
+{
+"id":7, "codigo":"006002", "descri":"Arizona Fruit Punch 680ml", "medida":"", "precio":4.34 }, 
+{
+"id":8, "codigo":"006003", "descri":"Arizona Grean Tea Ginseng and Honey 680m", "medida":"", "precio":4.34 }, 
+{
+"id":9, "codigo":"006005", "descri":"Arizona Lemon Tea 680ml", "medida":"", "precio":4.34 }, 
+{
+"id":10, "codigo":"006004", "descri":"Arizona Watermelon 680ml", "medida":"", "precio":4.34 }, 
+{
+"id":11, "codigo":"005036", "descri":"Arrowhead Mills Coconut Flour Gluten Fre", "medida":"", "precio":17.41 }, 
+{
+"id":12, "codigo":"005031", "descri":"Aunt Jemima Original Syrup 1.8lt", "medida":"", "precio":30.48 }, 
+{
+"id":13, "codigo":"005027", "descri":"Aunt Jemima Pancake/Waffle Mix 2.26 Kg S", "medida":"", "precio":23.94 }, 
+{
+"id":14, "codigo":"005037", "descri":"BBF Organiz Coconut Flour 1.02 Kg", "medida":"", "precio":33.74 }, 
+{
+"id":15, "codigo":"001018", "descri":"Cheerios Classic Normal", "medida":"", "precio":18.49 }, 
+{
+"id":16, "codigo":"001019", "descri":"Cheerios Honey Nut Notmal", "medida":"", "precio":18.49 }, 
+{
+"id":17, "codigo":"005028", "descri":"Chicken of the Sea Chunk Light 170gr 170", "medida":"", "precio":5.43 }, 
+{
+"id":18, "codigo":"004017", "descri":"Chips Ahoy Brownie Filled 269gr", "medida":"", "precio":14.14 }, 
+{
+"id":19, "codigo":"004020", "descri":"Chips Ahoy Candy Blasts 351gr", "medida":"", "precio":14.14 }, 
+{
+"id":20, "codigo":"004022", "descri":"Chips Ahoy Chewy Famil Size 552gr Family", "medida":"", "precio":18.49 }, 
+{
+"id":21, "codigo":"004015", "descri":"Chips Ahoy Chunky 333gr", "medida":"", "precio":14.14 }, 
+{
+"id":22, "codigo":"004021", "descri":"Chips Ahoy Chunky Family Size 510gr Fami", "medida":"", "precio":18.49 }, 
+{
+"id":23, "codigo":"004016", "descri":"Chips Ahoy Coconut Chunky 290gr", "medida":"", "precio":14.14 }, 
+{
+"id":24, "codigo":"004003", "descri":"Chips Ahoy Mini Galleta", "medida":"", "precio":1.97 }, 
+{
+"id":25, "codigo":"004018", "descri":"Chips Ahoy Original 368gr", "medida":"", "precio":14.14 }, 
+{
+"id":26, "codigo":"004012", "descri":"Chips Ahoy Red Velvet 272gr", "medida":"", "precio":15.23 }, 
+{
+"id":27, "codigo":"004014", "descri":"Chips Ahoy Reese's 269gr", "medida":"", "precio":14.14 }, 
+{
+"id":28, "codigo":"004013", "descri":"Chips Ahoy S'more Marshmallow 272gr", "medida":"", "precio":15.23 }, 
+{
+"id":29, "codigo":"004019", "descri":"Chips Ahoy White Fudge Chunky 333gr", "medida":"", "precio":14.14 }, 
+{
+"id":30, "codigo":"001004", "descri":"ChipsAhoy/Nutter Butter 2-bolsas", "medida":"", "precio":28.30 }, 
+{
+"id":31, "codigo":"006007", "descri":"Coffee Mate Original 311.8gr", "medida":"", "precio":9.78 }, 
+{
+"id":32, "codigo":"005011", "descri":"Cup Noodles Beef Sopa instantanea", "medida":"", "precio":2.16 }, 
+{
+"id":33, "codigo":"005010", "descri":"Cup Noodles Chicken Sopa instantanea", "medida":"", "precio":2.16 }, 
+{
+"id":34, "codigo":"005012", "descri":"Cup Noodles Shrimp Sopa instantanea", "medida":"", "precio":2.16 }, 
+{
+"id":35, "codigo":"009007", "descri":"Detergent Dreft Baby 110 lavadas Deterge", "medida":"", "precio":98.00 }, 
+{
+"id":36, "codigo":"007007", "descri":"Dial Gold Pastilla de Jabon", "medida":"", "precio":2.16 }, 
+{
+"id":37, "codigo":"007008", "descri":"Dial Spring Water Pastilla de Jabon", "medida":"", "precio":2.16 }, 
+{
+"id":38, "codigo":"006016", "descri":"Dole Piña 250ml Lata", "medida":"", "precio":2.16 }, 
+{
+"id":39, "codigo":"007005", "descri":"Dove Exfoliant Pastilla de Jabon", "medida":"", "precio":4.34 }, 
+{
+"id":40, "codigo":"007006", "descri":"Dove Men +Care Extra Fresh Pastilla de J", "medida":"", "precio":4.34 }, 
+{
+"id":41, "codigo":"007004", "descri":"Dove White Pastilla de Jabon", "medida":"", "precio":4.34 }, 
+{
+"id":42, "codigo":"006012", "descri":"Ensure Chocolate 237ml", "medida":"", "precio":5.43 }, 
+{
+"id":43, "codigo":"006013", "descri":"Ensure Strawberry 237ml", "medida":"", "precio":5.43 }, 
+{
+"id":44, "codigo":"006011", "descri":"Ensure Vanilla 237ml", "medida":"", "precio":5.43 }, 
+{
+"id":45, "codigo":"003019", "descri":"Ferrero Rocher 38gr 3 bombones", "medida":"", "precio":4.14 }, 
+{
+"id":46, "codigo":"004006", "descri":"Fig Newtons Blue Berry Galleta con relle", "medida":"", "precio":18.49 }, 
+{
+"id":47, "codigo":"004005", "descri":"Fig Newtons Strawberry Galleta con relle", "medida":"", "precio":18.49 }, 
+{
+"id":48, "codigo":"004007", "descri":"Fig Newtons triple Berrry Galleta con re", "medida":"", "precio":18.49 }, 
+{
+"id":49, "codigo":"004009", "descri":"Fudge Covered Oreo 224gr", "medida":"", "precio":0.00 }, 
+{
+"id":50, "codigo":"006014", "descri":"Gatorade 600ml", "medida":"", "precio":3.91 }, 
+{
+"id":51, "codigo":"009002", "descri":"Gerber Puffs Cereal Snack Blueberry Cere", "medida":"", "precio":6.52 }, 
+{
+"id":52, "codigo":"007018", "descri":"Gillette Venus Sensitive Afeitadoras de", "medida":"", "precio":65.33 }, 
+{
+"id":53, "codigo":"001010", "descri":"Golden Oreo O's Cereal Normal", "medida":"", "precio":15.23 }, 
+{
+"id":54, "codigo":"007012", "descri":"Head&Shoulders Green Apple 2in1 Shampoo", "medida":"", "precio":0.00 }, 
+{
+"id":55, "codigo":"005018", "descri":"Hellmann's Real Mayonnise 739gr Mayonesa", "medida":"", "precio":17.41 }, 
+{
+"id":56, "codigo":"003003", "descri":"Hershey Cookies and Cream Barra", "medida":"", "precio":3.25 }, 
+{
+"id":57, "codigo":"003001", "descri":"Hershey Milk Chocolate Barra", "medida":"", "precio":3.25 }, 
+{
+"id":58, "codigo":"003002", "descri":"Hershey Milk Chocolate with whole Almond", "medida":"", "precio":4.34 }, 
+{
+"id":59, "codigo":"001003", "descri":"Honey Bunches of Oats Twin Pack 2-bolsas", "medida":"", "precio":28.30 }, 
+{
+"id":60, "codigo":"008011", "descri":"Hubba Bubba Bubble Tap Chicle en rollo", "medida":"", "precio":5.43 }, 
+{
+"id":61, "codigo":"003017", "descri":"Huevos Kinder Boys Pasta de chocolate co", "medida":"", "precio":5.43 }, 
+{
+"id":62, "codigo":"003018", "descri":"Huevos Kinder Girls Pasta de chocolate c", "medida":"", "precio":5.43 }, 
+{
+"id":63, "codigo":"009006", "descri":"Huggies 48 Wipes Toallitas Humedas bebe", "medida":"", "precio":5.43 }, 
+{
+"id":64, "codigo":"008012", "descri":"Ice Breakers Ice Cubes Arctic Grape 40 p", "medida":"", "precio":11.96 }, 
+{
+"id":65, "codigo":"008013", "descri":"Ice Breakers Ice Cubes Pepermint 40 piez", "medida":"", "precio":11.96 }, 
+{
+"id":66, "codigo":"008014", "descri":"Ice Breakers Ice Cubes Spearmint 40 Piez", "medida":"", "precio":11.96 }, 
+{
+"id":67, "codigo":"006026", "descri":"Inka Cola 2 Litros", "medida":"", "precio":10.88 }, 
+{
+"id":68, "codigo":"006008", "descri":"Inka Cola 355ml Lata", "medida":"", "precio":4.34 }, 
+{
+"id":69, "codigo":"007003", "descri":"Irish Spring Original Pastilla de Jabon", "medida":"", "precio":2.16 }, 
+{
+"id":70, "codigo":"005029", "descri":"Jif Creamy Peanut Butter 1.36Kg crema 1.", "medida":"", "precio":30.48 }, 
+{
+"id":71, "codigo":"005030", "descri":"Jif Extra Crunchy Peanut Butter 1.36Kg T", "medida":"", "precio":30.48 }, 
+{
+"id":72, "codigo":"002007", "descri":"Jolly Rancher Chews Caramelos masticable", "medida":"", "precio":4.34 }, 
+{
+"id":73, "codigo":"002006", "descri":"Jolly Rancher Filled Pops Chupetas", "medida":"", "precio":0.87 }, 
+{
+"id":74, "codigo":"001012", "descri":"Kellogg's Chocolate Frosted Flakes Famil", "medida":"", "precio":18.49 }, 
+{
+"id":75, "codigo":"001013", "descri":"Kellogg's Corn Pops Family Size", "medida":"", "precio":18.49 }, 
+{
+"id":76, "codigo":"001014", "descri":"Kellogg's Froot Loops Family Size", "medida":"", "precio":18.49 }, 
+{
+"id":77, "codigo":"001009", "descri":"Kellogg's Froot Loops Marshmallows Famil", "medida":"", "precio":18.49 }, 
+{
+"id":78, "codigo":"001020", "descri":"Kellogg's Frosted Flakes Family Size Cho", "medida":"", "precio":18.49 }, 
+{
+"id":79, "codigo":"001002", "descri":"Kellogg's Special K Red Berries 2 Bags 2", "medida":"paq", "precio":32.66 }, 
+{
+"id":80, "codigo":"001001", "descri":"Kelloggs Trifun FrootLoops-Pops-Apple Ja", "medida":"und", "precio":34.83 }, 
+{
+"id":81, "codigo":"005035", "descri":"Kirkland Almond Butter 765gr", "medida":"", "precio":26.12 }, 
+{
+"id":82, "codigo":"005041", "descri":"Kirkland Almond Flour Blanched 1.36kg", "medida":"", "precio":50.08 }, 
+{
+"id":83, "codigo":"005047", "descri":"Kirkland Almond Original Milk 946ml 1 li", "medida":"", "precio":7.60 }, 
+{
+"id":84, "codigo":"005048", "descri":"Kirkland Almond Vanilla Milk 946ml 1 lit", "medida":"", "precio":9.78 }, 
+{
+"id":85, "codigo":"005032", "descri":"Kirkland Chicken Breast 354gr Lata Pollo", "medida":"", "precio":7.60 }, 
+{
+"id":86, "codigo":"007017", "descri":"Kirkland Disinfecing Wipes Fresh Air Sce", "medida":"", "precio":17.41 }, 
+{
+"id":87, "codigo":"007016", "descri":"Kirkland Disinfecing Wipes Lemon Scent 7", "medida":"", "precio":15.23 }, 
+{
+"id":88, "codigo":"009001", "descri":"Kirkland Organic Apple Sauce Compota de", "medida":"", "precio":2.16 }, 
+{
+"id":89, "codigo":"005039", "descri":"Kirkland Organic Quinoa 2.04kg", "medida":"", "precio":43.55 }, 
+{
+"id":90, "codigo":"005044", "descri":"Kirkland Organic Soy Milk 946ml 1 litro", "medida":"", "precio":7.60 }, 
+{
+"id":91, "codigo":"005045", "descri":"Kirkland Organic Soy Vanilla Milk 946ml", "medida":"", "precio":7.60 }, 
+{
+"id":92, "codigo":"005040", "descri":"Kirkland Organic Virgin Coconut Oil 2.48", "medida":"", "precio":69.68 }, 
+{
+"id":93, "codigo":"005034", "descri":"Kirkland Peanut Butter 793.8gr", "medida":"", "precio":34.83 }, 
+{
+"id":94, "codigo":"005033", "descri":"Kirkland Pink Salmon 170gr", "medida":"", "precio":10.88 }, 
+{
+"id":95, "codigo":"007013", "descri":"Kirkland Ultra Clean Pods 152 pacs 152 c", "medida":"", "precio":108.89 }, 
+{
+"id":96, "codigo":"003013", "descri":"Kitkat BigKat Barra Big", "medida":"", "precio":3.25 }, 
+{
+"id":97, "codigo":"003012", "descri":"Kitkat White Barra", "medida":"", "precio":3.25 }, 
+{
+"id":98, "codigo":"006018", "descri":"Koolaid Cherry 538gr", "medida":"", "precio":16.99 }, 
+{
+"id":99, "codigo":"006019", "descri":"Koolaid Grape 538gr", "medida":"", "precio":16.99 }, 
+{
+"id":100, "codigo":"006022", "descri":"Koolaid Jammers Grape-Uva 177ml", "medida":"", "precio":1.64 }, 
+{
+"id":101, "codigo":"006025", "descri":"Koolaid Jammers Grape-Uva 177ml", "medida":"", "precio":1.64 }, 
+{
+"id":102, "codigo":"006024", "descri":"Koolaid Jammers Strawberry Kiwi 177ml", "medida":"", "precio":1.64 }, 
+{
+"id":103, "codigo":"006023", "descri":"Koolaid Jammers Tropical-Punch 177ml", "medida":"", "precio":1.64 }, 
+{
+"id":104, "codigo":"006021", "descri":"Koolaid Sobre 1.8 litros", "medida":"", "precio":2.16 }, 
+{
+"id":105, "codigo":"006020", "descri":"Koolaid Tropical Punch 538gr", "medida":"", "precio":16.99 }, 
+{
+"id":106, "codigo":"005014", "descri":"Kraft Parmesan Cheese Queso Parmesano Mo", "medida":"", "precio":32.66 }, 
+{
+"id":107, "codigo":"002012", "descri":"LifeSavers Gummis gomitas", "medida":"", "precio":5.43 }, 
+{
+"id":108, "codigo":"002011", "descri":"LifeSavers Hard Candy caramelo", "medida":"", "precio":3.25 }, 
+{
+"id":109, "codigo":"002013", "descri":"LifeSavers Hard Candy KG Caramelo", "medida":"", "precio":32.66 }, 
+{
+"id":110, "codigo":"006015", "descri":"Lipton Iced Tea Lemon 2.7kg Polvo", "medida":"", "precio":69.68 }, 
+{
+"id":111, "codigo":"007002", "descri":"Listerine TOTAL CARE Fresh Mint 1L", "medida":"", "precio":21.77 }, 
+{
+"id":112, "codigo":"001011", "descri":"Lucky Charms Chocolate Family Size Choco", "medida":"", "precio":18.49 }, 
+{
+"id":113, "codigo":"001005", "descri":"Lucky Charms Magical Unicorn Family Size", "medida":"", "precio":18.49 }, 
+{
+"id":114, "codigo":"003010", "descri":"M&M Milk Chocolate Peanuts Sobre 49.3", "medida":"", "precio":3.25 }, 
+{
+"id":115, "codigo":"003009", "descri":"M&M Milk Chocolate Sobre 47.9", "medida":"", "precio":3.25 }, 
+{
+"id":116, "codigo":"005049", "descri":"Macaroni & Cheese Kraft Personal Snack 5", "medida":"", "precio":5.43 }, 
+{
+"id":117, "codigo":"005043", "descri":"Mayorga Organics Chia Seeds 1.36kg", "medida":"", "precio":37.01 }, 
+{
+"id":118, "codigo":"003005", "descri":"Milky Way Barra", "medida":"", "precio":3.25 }, 
+{
+"id":119, "codigo":"003004", "descri":"Milkyway Barra king size", "medida":"", "precio":4.34 }, 
+{
+"id":120, "codigo":"005017", "descri":"MM Black Pepercorn 198gr Envase de vidri", "medida":"", "precio":26.12 }, 
+{
+"id":121, "codigo":"005016", "descri":"MM Himalayan Pink Salt 405gr Envase de v", "medida":"", "precio":26.12 }, 
+{
+"id":122, "codigo":"006017", "descri":"MM Instant Nonfat Dry Milk 2Kg", "medida":"", "precio":69.68 }, 
+{
+"id":123, "codigo":"005003", "descri":"Mott's Applesauce Compota Manzana 1.3kg", "medida":"", "precio":13.05 }, 
+{
+"id":124, "codigo":"005038", "descri":"Mr Dash Salt Free 595gr", "medida":"", "precio":41.37 }, 
+{
+"id":125, "codigo":"005051", "descri":"Nature Valley Granola Cups Peanut Butter", "medida":"", "precio":3.25 }, 
+{
+"id":126, "codigo":"005042", "descri":"Nature's Eats Almond Flour 907gr", "medida":"", "precio":41.37 }, 
+{
+"id":127, "codigo":"005021", "descri":"Nestle Klin Fortificada 1.6kg Lata de le", "medida":"", "precio":74.04 }, 
+{
+"id":128, "codigo":"006010", "descri":"Nestle Nesquik Chocolate 1.02Kg Polvo", "medida":"", "precio":35.92 }, 
+{
+"id":129, "codigo":"006009", "descri":"Nestle Nesquik Strawberry 1.02Kg Polvo", "medida":"", "precio":35.92 }, 
+{
+"id":130, "codigo":"005020", "descri":"Nestle Nido Fortificada 2.2kg Lata de le", "medida":"", "precio":76.22 }, 
+{
+"id":131, "codigo":"003007", "descri":"Nutella & go Nutella con Palitos", "medida":"", "precio":3.91 }, 
+{
+"id":132, "codigo":"003015", "descri":"Nutella 371gr", "medida":"", "precio":13.05 }, 
+{
+"id":133, "codigo":"003006", "descri":"Nutella 750gr 750gr", "medida":"", "precio":19.59 }, 
+{
+"id":134, "codigo":"003016", "descri":"Nutella 950gr", "medida":"", "precio":28.30 }, 
+{
+"id":135, "codigo":"006006", "descri":"Ocean Spray Cranberry Juice 1.8 Litros", "medida":"", "precio":17.41 }, 
+{
+"id":136, "codigo":"007009", "descri":"Oral B Scope Floss Picks 75 counts Hilo", "medida":"", "precio":13.05 }, 
+{
+"id":137, "codigo":"004008", "descri":"Oreo Double Stuf 8 galletas", "medida":"", "precio":3.25 }, 
+{
+"id":138, "codigo":"003011", "descri":"Oreo Milka Barra", "medida":"", "precio":3.25 }, 
+{
+"id":139, "codigo":"004001", "descri":"Oreo Mini Galleta mini 28gr", "medida":"", "precio":1.97 }, 
+{
+"id":140, "codigo":"004002", "descri":"Oreo Mini Galleta mini 42gr", "medida":"", "precio":1.97 }, 
+{
+"id":141, "codigo":"001008", "descri":"Oreo O's Cereal Normal", "medida":"und", "precio":15.23 }, 
+{
+"id":142, "codigo":"004010", "descri":"Oreo Smile Paquete 6 galletas", "medida":"", "precio":1.97 }, 
+{
+"id":143, "codigo":"009003", "descri":"Organics Happy Baby compotas Compotas", "medida":"", "precio":5.43 }, 
+{
+"id":144, "codigo":"001007", "descri":"Original Chips Ahoy Cereal Normal", "medida":"", "precio":15.23 }, 
+{
+"id":145, "codigo":"005025", "descri":"PAM Coconut Oil Spray 141gr", "medida":"", "precio":14.14 }, 
+{
+"id":146, "codigo":"005026", "descri":"PAM Olive Oil 198gr", "medida":"", "precio":16.32 }, 
+{
+"id":147, "codigo":"005024", "descri":"PAM Original Spray 340gr", "medida":"", "precio":16.32 }, 
+{
+"id":148, "codigo":"005023", "descri":"PAM Saute & Grill Spray 482gr", "medida":"", "precio":17.41 }, 
+{
+"id":149, "codigo":"009005", "descri":"Pampers 72 Wipes Toallitas Humedas bebe", "medida":"", "precio":6.52 }, 
+{
+"id":150, "codigo":"005046", "descri":"Pillsbury Best Gluten Free Flour 907kg", "medida":"", "precio":26.12 }, 
+{
+"id":151, "codigo":"005015", "descri":"Planters Saled Peanuts Sobre de mani", "medida":"", "precio":1.07 }, 
+{
+"id":152, "codigo":"001016", "descri":"Post Cocoa Pebbles  Normal", "medida":"", "precio":17.41 }, 
+{
+"id":153, "codigo":"001015", "descri":"Post Fruit Pebbles  Normal", "medida":"", "precio":17.41 }, 
+{
+"id":154, "codigo":"9999", "descri":"PRECIO UN DOLAR", "medida":"ud", "precio":2.18 }, 
+{
+"id":155, "codigo":"005001", "descri":"Pringles 40g Lata Pequeña", "medida":"", "precio":3.25 }, 
+{
+"id":156, "codigo":"005007", "descri":"Pringles Lata Grande", "medida":"", "precio":7.60 }, 
+{
+"id":157, "codigo":"005006", "descri":"Pringles Snack 19gr", "medida":"", "precio":1.29 }, 
+{
+"id":158, "codigo":"005008", "descri":"Ragu Traditional Envase de 970gr", "medida":"", "precio":11.96 }, 
+{
+"id":159, "codigo":"006001", "descri":"Red Bull 250ml", "medida":"", "precio":6.52 }, 
+{
+"id":160, "codigo":"001006", "descri":"Reese's Puffs Cereal Family Size Family", "medida":"UND", "precio":18.49 }, 
+{
+"id":161, "codigo":"004004", "descri":"Ritz Galleta mini", "medida":"", "precio":1.97 }, 
+{
+"id":162, "codigo":"004011", "descri":"Ritz Tubos Individuales", "medida":"", "precio":1.97 }, 
+{
+"id":163, "codigo":"005002", "descri":"Salsas Heinz PicNic Paquete de 3 500gr", "medida":"", "precio":26.12 }, 
+{
+"id":164, "codigo":"009004", "descri":"Shampoo Johnson's Baby Shampoo 400ml", "medida":"", "precio":20.67 }, 
+{
+"id":165, "codigo":"002001", "descri":"Skittles Original Sobre 61.5gr", "medida":"", "precio":3.25 }, 
+{
+"id":166, "codigo":"002004", "descri":"Skittles Sour Sobre 51gr", "medida":"", "precio":3.25 }, 
+{
+"id":167, "codigo":"002005", "descri":"Skittles Sweets + Sour Sobre 56.7gr", "medida":"", "precio":3.25 }, 
+{
+"id":168, "codigo":"002002", "descri":"Skittles Tropical Sobre 61.5gr", "medida":"", "precio":3.25 }, 
+{
+"id":169, "codigo":"002003", "descri":"Skittles Wild Berry Sobre 61.5gr", "medida":"", "precio":3.25 }, 
+{
+"id":170, "codigo":"003008", "descri":"Snickers Barra", "medida":"", "precio":3.25 }, 
+{
+"id":171, "codigo":"005050", "descri":"SO Delicious Coconut Milk 946ml 1 litro", "medida":"", "precio":10.88 }, 
+{
+"id":172, "codigo":"9991", "descri":"SOLO BOLIVARES", "medida":"", "precio":0.00 }, 
+{
+"id":173, "codigo":"005009", "descri":"Takis Fuego 1oz", "medida":"", "precio":1.73 }, 
+{
+"id":174, "codigo":"002009", "descri":"TicTac Fresh Mint caramelo de menta", "medida":"", "precio":4.34 }, 
+{
+"id":175, "codigo":"002010", "descri":"TicTac Fruit Adventure Caramelo de fruta", "medida":"", "precio":4.34 }, 
+{
+"id":176, "codigo":"007014", "descri":"Tide Pods Febreeze 30 cap", "medida":"", "precio":0.00 }, 
+{
+"id":177, "codigo":"007015", "descri":"Tide Pods Spring Meadow 42 cap 3in1 Spri", "medida":"", "precio":50.08 }, 
+{
+"id":178, "codigo":"005005", "descri":"Tomato Ketchup 566gr", "medida":"", "precio":8.70 }, 
+{
+"id":179, "codigo":"007010", "descri":"TRESemme Keratin Smooth Shampoo/Conditio", "medida":"", "precio":54.44 }, 
+{
+"id":180, "codigo":"007011", "descri":"TRESemme Moisture Rich Shampoo/Condition", "medida":"", "precio":54.44 }, 
+{
+"id":181, "codigo":"008001", "descri":"Trident Bubble Gum 14 sticks", "medida":"", "precio":3.25 }, 
+{
+"id":182, "codigo":"008006", "descri":"Trident Island Berry lime 14 sticks", "medida":"", "precio":3.25 }, 
+{
+"id":183, "codigo":"008005", "descri":"Trident Mint Bliss 14 sticks", "medida":"", "precio":3.25 }, 
+{
+"id":184, "codigo":"008004", "descri":"Trident Original Flavor 14 sticks", "medida":"", "precio":3.25 }, 
+{
+"id":185, "codigo":"008003", "descri":"Trident Spearmint 14 sticks", "medida":"", "precio":3.25 }, 
+{
+"id":186, "codigo":"008007", "descri":"Trident Tropical Twist 14 sticks", "medida":"", "precio":3.25 }, 
+{
+"id":187, "codigo":"008002", "descri":"Trident Watermelon 14 sticks", "medida":"", "precio":3.25 }, 
+{
+"id":188, "codigo":"001017", "descri":"Trix Classic  Family Size", "medida":"", "precio":18.49 }, 
+{
+"id":189, "codigo":"005022", "descri":"TSL Himalayan Pink Salt 1lb Envase de pl", "medida":"", "precio":23.94 }, 
+{
+"id":190, "codigo":"008008", "descri":"Wrigley's Doublemint 5 sticks", "medida":"", "precio":1.53 }, 
+{
+"id":191, "codigo":"008010", "descri":"Wrigley's Juicy Fruit 5 sticks", "medida":"", "precio":1.53 }, 
+{
+"id":192, "codigo":"008009", "descri":"Wrigley's Spearmint 5 sticks", "medida":"", "precio":1.53 }, 
+{
+"id":193, "codigo":"005004", "descri":"Yellow Mustard Heinz 360gr", "medida":"", "precio":6.52 } 
+]}

@@ -9,7 +9,7 @@ const morgan = require('morgan');
 // configuracion
 //app.set('port',3000);
 app.set('port', process.env.PORT || 3000);
-app.set('json spaces', 2);
+app.set('json spaces', 4);
 
 //process.env.PORT || 3000
 
@@ -23,8 +23,10 @@ app.use(express.json());
 
 // RUTAS
 //app.get('/', ( req, res ) => {
-    app.use(require("./rutas/index"));
-  
+//app.get('/', ( req, res ) => {
+  app.use(require("./rutas/index"));
+  app.use('/api/producto', require("./rutas/productos"));
+  app.use('/api/usuarios', require("./rutas/usuarios"));
   //  res.json({"titulo": "hola mundo"});
 
 //});
