@@ -1,0 +1,32 @@
+primero es instalar Ionic CLI.  npm install -g ionic
+
+// para prepara laplataforma
+ionic cordova prepare [platform]
+
+// debe instarlar cordova
+npm i -g cordova
+
+//crear aplicacion ionic
+ionic start myApp tabs
+
+//ionic icons  clipboard
+
+//correr el servidor
+
+ionic serve
+//para correr ionic deveapp
+ionic serve --devapp
+ 
+
+
+//para crear los servicios
+ionic g s servicios/deseos
+
+ionic g s servicios/deseos --skipTests=true
+ 
+//***********************
+// las extesiones que tengo que instal visual studio code
+//*********************************
+
+Ionic 4 Snippets
+Auto close Tag

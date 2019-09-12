@@ -9,11 +9,11 @@ import { HttpClient } from '@angular/common/http';
 export class PaisesEjemploHttpComponent implements OnInit {
 
   paisesPropiedadDeLaClases: any[] = [];
-
+// 
   constructor( private http: HttpClient ) {
     console.log('contructor llamando con la peticion get');
     this.http.get('https://restcountries.eu/rest/v2/lang/es')
-    .subscribe( (paisesRespuestadelGet: any) => {
+      .subscribe( (paisesRespuestadelGet: any) => {
       this.paisesPropiedadDeLaClases = paisesRespuestadelGet;
       console.log(paisesRespuestadelGet);
     });

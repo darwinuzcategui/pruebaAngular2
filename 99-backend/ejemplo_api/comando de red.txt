@@ -1,0 +1,21 @@
+Copia y pega los Siguiente Comandos y en cada uno Oprime Enter:
+
+
+ipconfig /release
+
+netsh int ip reset reset.log
+
+netsh winsock reset catalog
+
+arp -d
+
+ipconfig /flushdns
+
+ipconfig /renew
+
+Por último Cierra la ventana y Reinicia Sistema.
+
+
+Ingresa a windows,Conéctate a tu Network,escribe la constraseña y verifica si ahora tu conexión a internet funciona Correctamente.
+
+Nota:No olvides habilitar el Antivirus-Fire
