@@ -20,7 +20,7 @@ export class SpotyfyService {
      const  URL = `https://api.spotify.com/v1/${ query } `;
      const headers = new HttpHeaders({
       // tslint:disable-next-line: max-line-length
-      Authorization: 'Bearer BQDIT-dk2sD-wOZXz-lDr6kTluuWdeOq-xKeJgmXoL7M4t8SKQpJg-F9cX_9mJPcXfNVFaSjspaYcqcy96g'
+      Authorization: 'Bearer BQDFjBZjTV6aCeKLeNgHR6fLPFPHet_Q4E9bS9SbSa_nMHYXPNVN9HXwOHtS4MP3-s4icNWXd4s96r8enBA'
     });
 
      return this.http.get(URL, {headers});
