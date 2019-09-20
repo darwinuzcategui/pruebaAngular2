@@ -14,7 +14,7 @@ y abajo
 *
     Objetivo:
         Comentar un bloque de código
-
+lo
     Tips:
         ? /
         Ctrl + /   # teclado en ingles comentario sencillo
